@@ -18,6 +18,6 @@ This project captures network traffic using **tcpdump**, analyzes it with **Pyth
 - **Chrony (NTP)** - Time synchronization
 
 ## 📊 Vizualization
-
+![Network Diagram](docs/diagrams/network_diagram.svg)
 
 
