@@ -17,4 +17,7 @@ This project captures network traffic using **tcpdump**, analyzes it with **Pyth
 - **Wazuh SIEM** – Log collection and alerting.
 - **Chrony (NTP)** - Time synchronization
 
+## 📊 Vizualization
+
+
 
