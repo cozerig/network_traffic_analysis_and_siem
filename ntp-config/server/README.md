@@ -4,7 +4,7 @@
 sudo apt update && sudo apt install chrony -y
 ```
 ## Configuration
-**Copy configuration from chrony.conf and paste and edit in your chrony.conf**
+**Copy from chrony.conf then paste and edit in your chrony.conf**
 ```bash
 sudo nano /etc/chrony/chrony.conf
 ```
