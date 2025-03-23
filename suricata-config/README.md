@@ -17,5 +17,6 @@
    ```
 4. ping your machine with Suricata 
 5. Go to the Wazuh dashboard, choose in the Menu tab **Threat Hunting** under Threat intelligence option
-6. Smth like this you should have in the Event tab:
-   
+6. Smth like this you should have in the Events tab:
+   ![test-suricata](/images/test-suricata.png)
+
