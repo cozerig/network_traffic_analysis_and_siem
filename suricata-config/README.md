@@ -19,4 +19,10 @@
 5. Go to the Wazuh dashboard, choose in the Menu tab **Threat Hunting** under Threat intelligence option
 6. Smth like this you should have in the Events tab:
    ![test-suricata](/images/test-suricata.png)
-
+# Most used commands 
+ ```bash
+   sudo suricata-update
+   sudo systemctl restart suricata
+   sudo truncate -s 0 /var/log/suricata/eve.json
+   sudo systemctl restart wazuh-agent
+   ```
