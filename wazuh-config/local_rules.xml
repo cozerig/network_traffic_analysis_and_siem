@@ -1,4 +1,6 @@
 <!-- These rules are only for educational purposes. Configure them after suricata-config/custom.rules -->
+<!-- Note Use Rule ID numbers between 100000 and 120000 for custom rules. -->
+
 <!-- Local rules -->
 
 <!-- Modify it at your will. -->
