@@ -24,5 +24,4 @@
    sudo suricata-update
    sudo systemctl restart suricata
    sudo truncate -s 0 /var/log/suricata/eve.json
-   sudo systemctl restart wazuh-agent
    ```
