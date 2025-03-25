@@ -6,7 +6,6 @@
 3. Then click on plus sign to deploy new agent
 4. Follow the pop-upp instruction
 5. Congrats! You've deployed new agent
-# Before configuring local_rules.xml
 # Most used commands 
 ```bash
 sudo systemctl restart wazuh-agent
