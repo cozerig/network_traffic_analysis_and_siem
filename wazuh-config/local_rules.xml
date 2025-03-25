@@ -1,0 +1,21 @@
+<!-- These rules are only for educational purposes. Configure them after suricata-config/custom.rules -->
+<!-- Local rules -->
+
+<!-- Modify it at your will. -->
+<!-- Copyright (C) 2015, Wazuh Inc. -->
+
+<!-- Example -->
+<group name="ids,suricata,">
+
+    <!--
+    ICMP Flood Attack Detection
+    -->
+    <rule id="100001" level="9">
+        <if_sid>86601</if_sid>
+        <decoded_as>json</decoded_as>
+        <field name="event_type">alert</field>
+        <field name="alert.signature">ICMP Flood detected</field>
+        <description>ICMP Flood detected by Suricata</description>
+    </rule>
+
+</group>
