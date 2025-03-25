@@ -6,3 +6,7 @@
 3. Then click on plus sign to deploy new agent
 4. Follow the pop-upp instruction
 5. Congrats! You've deployed new agent
+# Most used commands 
+```bash
+sudo systemctl restart wazuh-agent
+```
