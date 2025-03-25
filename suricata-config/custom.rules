@@ -1,0 +1,4 @@
+### These detection rules are only for educational purposes. In my case variable $EXTERNAL_NET is attacker machine's IP. 
+### When you create your own signatures, the range 1000000-1999999 is reserved for custom rules.
+### ICMP Flood Attack Detection Rule 
+alert icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP Flood detected"; sid:1000002; rev:1;)
