@@ -1,5 +1,6 @@
 # Integration Suricata to the Wazuh Agent machine #
 ### To integrate follow documentation https://documentation.wazuh.com/current/proof-of-concept-guide/integrate-network-ids-suricata.html
+### Security Considerations https://docs.suricata.io/en/latest/security.html
 # To ensure that everything works fine follow these steps:
 1. Create custom rule in **/etc/suricata/rules** directory
    ```bash
@@ -24,4 +25,7 @@
    sudo suricata-update
    sudo systemctl restart suricata
    sudo truncate -s 0 /var/log/suricata/eve.json
+   suricata-update list-sources
+   getent group suricata
+   getent passwd suricata
    ```
