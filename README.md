@@ -24,5 +24,9 @@ Soon
 1. ICMP Flood Attack (ping -f -c 20 <wazuhagent_ip>)
    
    ![after-testing-icmp-flood-attack](images/after-testing-icmp-flood-attack.png)
+2. After Log Manipulation
 
+   ![after-log-manipulation](images/log-manipulation-1.png)
+   <img src="images/log-manipulation-2.png" alt="after-log-manipulation" width="400"/>
+   <img src="images/log-manipulation-3.png" alt="after-log-manipulation" width="400"/>
 
