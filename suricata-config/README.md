@@ -28,4 +28,5 @@
    suricata-update list-sources
    getent group suricata
    getent passwd suricata
+   curl http://testmynids.org/uid/index.html
    ```
