@@ -27,20 +27,20 @@
   <rule id="100010" level="3">
     <if_sid>86601</if_sid>
     <field name="alert.severity">3</field>
-    <description>Low severity - ${alert.signature}</description>
+    <description>Low severity - $(alert.signature)</description>
   </rule>
 
   <!-- Medium severity from Suricata -->
   <rule id="100011" level="7">
     <if_sid>86601</if_sid>
     <field name="alert.severity">2</field>
-    <description>Medium severity - ${alert.signature}</description>
+    <description>Medium severity - $(alert.signature)</description>
   </rule>
 
   <!-- High severity from Suricata -->
   <rule id="100012" level="10">
     <if_sid>86601</if_sid>
     <field name="alert.severity">1</field>
-    <description>High severity - ${alert.signature}</description>
+    <description>High severity - $(alert.signature)</description>
   </rule>
 </group>
