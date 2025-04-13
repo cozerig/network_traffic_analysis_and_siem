@@ -20,6 +20,8 @@
 5. Go to the Wazuh dashboard, choose in the Menu tab **Threat Hunting** under Threat intelligence option
 6. Smth like this you should have in the Events tab:
    ![test-suricata](/images/test-suricata.png)
+# classification.config in Suricata
+The classification.config file in Suricata defines how classtype values used in detection rules are mapped to a textual description and a numeric severity level (1 to 3). Each line follows the format: config classification: <classtype> <description> <severity>. For example, config classification: attempted-admin Attempted Administrator Privilege Gain 1 means that any rule using classtype:attempted-admin will be treated with severity level 1 (high). When a Suricata rule doesn't explicitly include a severity, Suricata uses the classtype and refers to this file to determine the severity shown in logs like eve.json. By editing this file, you can adjust how specific classtype values are interpreted in terms of severity across your Suricata deployment.
 # Most used commands 
  ```bash
    sudo suricata-update
