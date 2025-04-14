@@ -4,6 +4,8 @@
 https://documentation.wazuh.com/current/deployment-options/docker/docker-installation.html
 ### Wazuh Docker deployment ###
 https://documentation.wazuh.com/current/deployment-options/docker/wazuh-container.html
+### Wazuh Quickstart deployment ###
+https://documentation.wazuh.com/current/quickstart.html
 # Before configuring local_rules.xml
 Before configuration of SIEM rules for detect attack watch the if_sid variable especially for alert event type. Because this variable will be used in local_rules.xml.
 ![if_sid](/images/if_sid.png)
