@@ -2,3 +2,5 @@ Telegram bot sends security alerts from Wazuh SIEM to Telegram. It filters and f
 Was used repository https://github.com/OpenSecureCo/Demos/blob/main/Telegram%20Integration. However custom-telegram.py was changed to own python script.
 
 # Example Alert Format
+
+![telegram-bot-example](../images/telegram-bot-example.png)
