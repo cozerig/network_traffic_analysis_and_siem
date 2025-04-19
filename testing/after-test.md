@@ -5,14 +5,22 @@
    #### Wazuh:
    ![testing-nmap-OSdetect-wazuh](../images/testing-nmap-OSdetect-wazuh.png)
    #### Telegram Bot:
-   ![testing-nmap-OSdetect-wazuh](../images/testing-nmap-OSdetect-telegram.png)
+   ![testing-nmap-OSdetect-telegram](../images/testing-nmap-OSdetect-telegram.png)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   
 ### 2. TCP XMAS scan
    #### Kali:
-   ![testing-nmap-OSdetect-kali](../images/testing-nmap-TCPXMASscan-kali.png)
+   ![testing-nmap-TCPXMASscan-kali](../images/testing-nmap-TCPXMASscan-kali.png)
    #### Wazuh:
-   ![testing-nmap-OSdetect-wazuh](../images/testing-nmap-TCPXMASscan-wazuh.png)
+   ![testing-nmap-TCPXMASscan-wazuh](../images/testing-nmap-TCPXMASscan-wazuh.png)
    #### Telegram Bot:
-   ![testing-nmap-OSdetect-wazuh](../images/testing-nmap-TCPXMASscan-telegram.png)
-
-
+   ![testing-nmap-TCPXMASscan-telegram](../images/testing-nmap-TCPXMASscan-telegram.png)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+### 3. SSH BruteForce
+   #### Windows(created testing user):
+   ![testing-hydra-ssh-bruteforce-windows](../images/testing-hydra-ssh-bruteforce-windows.png)
+   #### Kali:
+   ![testing-hydra-ssh-bruteforce-kali](../images/testing-hydra-ssh-bruteforce-kali.png)
+   #### Wazuh:
+   ![testing-hydra-ssh-bruteforce-wazuh](../images/testing-hydra-ssh-bruteforce-wazuh.png)
+   #### Telegram Bot:
+   ![testing-hydra-ssh-bruteforce-telegram](../images/testing-hydra-ssh-bruteforce-telegram.png)
