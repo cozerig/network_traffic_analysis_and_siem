@@ -31,5 +31,7 @@
    #### Wazuh:
    ![testing-ping-wazuh](../images/testing-ping-wazuh.png)
    #### Telegram:
-   No outputs due to the low severity 
+   No outputs due to the low severity
+
+   ### 5. Detect HTTP traffic
 
