@@ -7,5 +7,5 @@
    #### Telegram Bot:
    ![testing-nmap-OSdetect-wazuh](../images/testing-nmap-OSdetect-telegram.png)
    
-### 1. Nmap SSH detect 
+### 2. TCP XMAS scan
 
