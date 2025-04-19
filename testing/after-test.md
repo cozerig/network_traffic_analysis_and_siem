@@ -31,7 +31,15 @@
    #### Wazuh:
    ![testing-ping-wazuh](../images/testing-ping-wazuh.png)
    #### Telegram:
-   No outputs due to the low severity
-
+      No outputs due to the low severity
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
    ### 5. Detect HTTP traffic
+   #### Kali(created testing google clone using Social-Engineer Toolkit):
+   ![testing-SET-detect-http-kali](../images/testing-SET-detect-http-kali.png)
+   #### Windows:
+   ![testing-SET-detect-http-windows](../images/testing-SET-detect-http-windows.png)
+   #### Wazuh:
+   ![testing-SET-detect-http-wazuh](../images/testing-SET-detect-http-wazuh.png)
+   #### Telegram Bot:
+   ![testing-SET-detect-http-telegram](../images/testing-SET-detect-http-telegram.png)
 
