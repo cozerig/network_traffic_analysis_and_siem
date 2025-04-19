@@ -24,3 +24,12 @@
    ![testing-hydra-ssh-bruteforce-wazuh](../images/testing-hydra-ssh-bruteforce-wazuh.png)
    #### Telegram Bot:
    ![testing-hydra-ssh-bruteforce-telegram](../images/testing-hydra-ssh-bruteforce-telegram.png)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+   ### 4. ICMP Ping
+   #### Kali:
+   ![testing-ping-kali](../images/testing-ping-kali.png)
+   #### Wazuh:
+   ![testing-ping-wazuh](../images/testing-ping-wazuh.png)
+   #### Telegram:
+   No outputs due to the low severity 
+
