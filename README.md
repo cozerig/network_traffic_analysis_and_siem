@@ -18,9 +18,9 @@ This project aims to simulate network attacks and detect them using a SIEM Solut
 - **Python** – For script of Telegram bot.
 
 ## 📊 Vizualization
-Soon
+ ![project-architecture](images/soc_architecture.png)
 
-## 🔍🛡️🚧 After Testing Attacks
+## 🔍 After Testing Attacks
 1. ICMP Flood Attack (ping -f -c 20 <wazuhagent_ip>)
    
    ![after-testing-icmp-flood-attack](images/after-testing-icmp-flood-attack.png)
